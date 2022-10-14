@@ -1,0 +1,62 @@
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.common {
+  color: red;
+}
+.common:hover {
+  color: rgb(0, 255, 89);
+}
+
+.flags {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.coatOfArms {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td,
+.table th {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px;
+  border-collapse: collapse;
+}
+
+.table tr:hover {
+  background-color: rgb(53, 150, 87);
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #25413e;
+  color: white;
+}
+
+.table th:hover {
+  background-color: rgb(53, 150, 87);
+}
+
